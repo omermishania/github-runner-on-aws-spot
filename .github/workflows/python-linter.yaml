@@ -4,7 +4,7 @@ on:
   pull_request:
 jobs:
   lint-python-code:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
