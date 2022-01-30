@@ -1,0 +1,15 @@
+{
+  "ImageId": "ami-001089eb624938d9f",
+  "InstanceType": "t2.micro",
+  "KeyName": "instance key pair name",
+  "SecurityGroups": ["security group name"],
+  "UserData": "user-data.sh file content encoded to base64",
+  "InstanceMarketOptions": {
+    "MarketType": "spot",
+    "SpotOptions": {
+      "MaxPrice": "0.03",
+      "SpotInstanceType": "one-time",
+      "InstanceInterruptionBehavior": "terminate"
+    }
+  }
+}
