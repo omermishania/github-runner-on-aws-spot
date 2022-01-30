@@ -1,0 +1,9 @@
+{
+    "AutoScalingGroupName": "spot-isntance-asg",
+    "LaunchTemplate": {
+        "LaunchTemplateName": "spot-instance-launch-template"
+    },
+    "MinSize": 1,
+    "MaxSize": 1,
+    "AvailabilityZones": ["your Availability Zones"]
+}
