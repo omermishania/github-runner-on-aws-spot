@@ -10,8 +10,8 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip3 --target=/usr/bin install flake8
-          pip3 --target=/usr/bin install pylint
+          pip3 install --target=/usr/bin flake8
+          pip3 install --target=/usr/bin pylint
           if [ -f requirements.txt ]; then pip3 install --target=/usr/bin -r requirements.txt; fi
       - name: Lint with flake8
         run: |
