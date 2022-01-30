@@ -3,7 +3,7 @@
 
 def main():
     "main function of code"
-    print("Incredible Meteor!")
+    print("Incredible Meteor!!")
 
 
 if __name__ == "__main__":
