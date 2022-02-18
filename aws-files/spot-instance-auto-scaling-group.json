@@ -1,5 +1,5 @@
 {
-    "AutoScalingGroupName": "spot-isntance-asg",
+    "AutoScalingGroupName": "spot-instance-asg",
     "LaunchTemplate": {
         "LaunchTemplateName": "spot-instance-launch-template"
     },
