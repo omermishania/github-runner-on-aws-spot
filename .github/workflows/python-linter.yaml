@@ -4,7 +4,7 @@ on:
   pull_request:
 jobs:
   lint-python-code:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
